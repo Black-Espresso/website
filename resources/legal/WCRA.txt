@@ -20,7 +20,7 @@ All workers are required to have the right to:
 All consumers are promised and must be promised with:
 
 - No anti-consumer practices (as much as possible).
-- We must respect the consumers' rights and they themselves, regardless of whatever they may look like, believe in, what they find attractive or are attracted to, their privacy, etc.
+- We must respect the consumers' rights and they themselves, regardless of whatever they may look like, believe in, their privacy, etc.
 - We must treat all people fairly and acknowledge that they are people.
 - We cannot deny service to absolutely anyone just because of what they may look like, believe in, etc.
 - Only when consumers themselves treat our own workers unfairly (such as being mean, disrespectful, or aggressive towards them for unfair reasons) is when we are allowed to deny service.
