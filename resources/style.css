@@ -108,7 +108,7 @@ a#nova-teaser {
 }
 
 nav {
-  padding: 10px 2%;
+  padding: 15px 2%;
   justify-content: space-between;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(-45deg, #000000, #a70505, #000000, #000000);
