@@ -9,6 +9,10 @@
 @use "bulma/sass/elements/title";
 @use "bulma/sass/components/message";
 
+html {
+  min-height: 100%; 
+}
+
 #test {
   position: relative;
   width: 200px;
