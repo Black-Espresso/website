@@ -15,8 +15,8 @@ html {
 
 #test {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   background-color: rgba(129, 15, 15, 0.7);
   transition: background-color .1s;
 }
