@@ -3,11 +3,7 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
 /* Load Bulma's base styles and themes (including the minireset) */
 @use "bulma/sass/base";
-@use "bulma/sass/grid/columns";
-@use "bulma/sass/themes"; /* Load the button and title elements and components */
-@use "bulma/sass/elements/button";
 @use "bulma/sass/elements/title";
-@use "bulma/sass/components/message";
 
 html {
   min-height: 100%; 
