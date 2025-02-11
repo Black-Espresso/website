@@ -1,13 +1,8 @@
 /* black espresso main css! */
 
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
-/* Load Bulma's base styles and themes (including the minireset) */
 @use "bulma/sass/base";
 @use "bulma/sass/elements/title";
-
-html {
-  min-height: 100%; 
-}
 
 #test {
   position: relative;
@@ -26,7 +21,7 @@ html {
   height: 100%;
   width: 100%;
   background: linear-gradient(45deg, rgba(129, 15, 15, 0.9), rgba(129, 15, 15, 0.7), rgba(129, 15, 15, 0.9));
-  background-size: 500% 500%;
+  background-size: 200% 200%;
   background-position: 0% 100%;
   animation-name: test_hover;
   animation-duration: 4s;
