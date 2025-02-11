@@ -1,9 +1,5 @@
 /* black espresso main css! */
 
-@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
-@use "bulma/sass/base";
-@use "bulma/sass/elements/title";
-
 #test {
   position: relative;
   width: 200px;
