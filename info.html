@@ -31,53 +31,104 @@
 <meta property="twitter:image" content="../resources/BEB2.png" />
 </head>
 <body>
-<img class="center2" src="../resources/BEL.png" height="100" width="100">
-<h1 class="center" id="welcome">Info</h1>
-<br>
-<br>
-<div style="max-width: 85%; max-height: 45%; margin-inline: auto">
-<p class="center">
-Black Espresso is a private, entertainment & tech organization of young friends, some of whom love coffee.
-<br>
-<br>
-One of the biggest goals we have is to allow for as much as possible the freedom of expression and creative freedom when it comes to our productions and other things we create. We also aim for quality, and fair and reasonable treatment of not just our members of the organization but with those who enjoy and consume our work as well. 
-<br>
-<br>
-We wish to make sure all voices are heard, no voices are slienced over just it being a different view than others in itself, and that everyone who works with Black Espresso has the right to make whatever dream production or thing they want to their full potential and vision— so long it's within a balanced, minimal budget.
-</p>
-</div>
-<br>
-<br>
-<h2 class="center">
-<u>So bottoms up, but be careful, it's hot!!</u>
-</h2>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" id="menuCheckbox" />
+          
+          <!--
+          Some spans to act as a hamburger.
+          
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+          <ul id="menu">
+            <!-- 
+            We can use a label here to close upon click (when doing same page navigation), this
+            does require a slight bit of JS.
+            -->
+            <li>
+              <a href="./index.html">
+                <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+              </a>
+            </li>
+            
+            <!-- These just close the menu -->
+            <li><label for="menuCheckbox"><a href="https://youtube.com/@black.espresso">Our YouTube</a></label></li>
+            <li><label for="menuCheckbox"><a href="./productions.html">Our Productions</a></label></li>
+            
+            <!-- Or just use regular URLs -->
+            <li>
+              <a href="#" target="_blank" id="getmail">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <main>
+        <img class="center2" src="../resources/BEL.png" height="100" width="100">
+        <h1 class="center" id="welcome">Info</h1>
+        <br>
+        <br>
+        <div style="margin-inline: auto">
+            <p class="center">
+            Black Espresso is a private, entertainment & tech organization of young friends, some of whom love coffee.
+            <br>
+            <br>
+            One of the biggest goals we have is to allow for as much as possible the freedom of expression and creative freedom when it comes to our productions and other things we create. We also aim for quality, and fair and reasonable treatment of not just our members of the organization but with those who enjoy and consume our work as well. 
+            <br>
+            <br>
+            We wish to make sure all voices are heard, no voices are slienced over just it being a different view than others in itself, and that everyone who works with Black Espresso has the right to make whatever dream production or thing they want to their full potential and vision— so long it's within a balanced, minimal budget.
+            </p>
+        </div>
+        <br>
+        <br>
+        <h2 class="center">
+        <u>So bottoms up, but be careful, it's hot!!</u>
+        </h2>
 
-<br>
-<br>
+        <br>
+        <br>
 
-<style>
-a#thx {
-    display: block;
-    text-align: center;
-    width: 150px;
-    margin: 0px auto;
-    padding: 20px;
-    color: white;
-    font-family: GlacialIndifference;
-    text-transform: uppercase;
-    border: 2px solid hsl(105, 100%, 50%);
-    background-color: hwb(108 12% 0% / 0.357);
-    text-decoration: none;
-    border-radius: 10px;
-}
-</style>
+        <style>
+            a#thx {
+                display: block;
+                text-align: center;
+                width: 150px;
+                margin: 0px auto;
+                padding: 20px;
+                color: white;
+                font-family: GlacialIndifference;
+                text-transform: uppercase;
+                border: 2px solid hsl(105, 100%, 50%);
+                background-color: hwb(108 12% 0% / 0.357);
+                text-decoration: none;
+                border-radius: 10px;
+            }
+        </style>
 
-<a href="./index.html" id="thx">OK!</a>
+        <a href="./index.html" id="thx">OK!</a>
 
-<br>
-<br>
-<footer>
-<h3 class="center">(C) 2025 <a style="color: white; text-decoration: none;" href="">Black Espresso</a></h3>
-</footer>
+        <br>
+        <br>
+        <footer>
+        <h3 class="center">(C) 2025 <a style="color: white; text-decoration: none;" href="">Black Espresso</a></h3>
+        </footer>
+    </main>
 </body>
 </html>
