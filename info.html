@@ -80,6 +80,24 @@
           </ul>
         </div>
       </nav>
+      <script>
+        var getmaily = document.getElementById('getmail');
+        getmaily.onclick = givemail;
+
+        function givemail() {
+          alert("Feel free to email us via info@blackespresso.productions!\n\nPlease do not send anything harmful, mean, or unimportant! Thanks! :)");
+          return false;
+        }
+
+        var products = document.getElementById('productions');
+        products.onclick = productions;
+
+        function productions() {
+          alert("A page of a list of our productions will be added soon! Stay tuned :)");
+          // window.location.href="https://google.com/";
+          return false;
+        } 
+    </script>
     <main>
         <img class="center2" src="../resources/BEL.png" height="100" width="100">
         <h1 class="center" id="welcome">Info</h1>
