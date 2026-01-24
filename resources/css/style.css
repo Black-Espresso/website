@@ -1,0 +1,113 @@
+/* black espresso main css! */
+
+/* Halfmoon Theming */
+:root {
+  --bs-primary: #ff0000;
+  --bs-primary-rgb: 255, 0, 0;
+  --bs-body-bg: #000000;
+  --bs-body-bg-rgb: 0, 0, 0;
+  --bs-content-bg: #480000; 
+  --bs-border-color: #333333;
+  --bs-body-color: #ffffff;
+  --bs-body-font-family: 'GlacialIndifference';
+}
+
+.alert-danger {
+    --bs-alert-bg: #ff0000 !important;
+    --bs-alert-color: #ffffff !important;
+    --bs-alert-border-color: #ff0000;
+}
+
+.alert-success {
+    --bs-alert-bg: #28a745;
+    --bs-alert-color: #ffffff;
+}
+
+
+#test {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(129, 15, 15, 0.7);
+  transition: background-color .1s;
+}
+#test:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+#test:hover:after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, rgba(129, 15, 15, 0.9), rgba(129, 15, 15, 0.7), rgba(129, 15, 15, 0.9));
+  background-size: 200% 200%;
+  background-position: 0% 100%;
+  animation-name: test_hover;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes test_hover {
+  from {
+    background-position: 0% 100%;
+  }
+  to {
+    background-position: 100% 0%;
+  }
+}
+
+a {
+  text-decoration-color: #a70505;
+}
+
+.center {
+  text-align: center;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face {
+    font-family: "GlacialIndifference";
+    src: url("./fonts/GlacialIndifference-Regular.otf");
+}
+
+@font-face {
+  font-family: "GlacialIndifferenceB";
+  src: url("./fonts/GlacialIndifference-Bold.otf");
+}
+
+h1, h2, h3, h4, h5, h6, p {
+font-family: "GlacialIndifference";
+color: white;
+}
+
+a#nova-teaser {
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 0px auto;
+    padding: 20px;
+    color: red;
+    font-family: GlacialIndifferenceB;
+    text-transform: uppercase;
+    border: 2px solid #FF0000;
+    background-color: #ff001f5b;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
