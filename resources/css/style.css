@@ -15,6 +15,10 @@
   animation-play-state: pause;
 }
 
+.card {
+  background: #000000;
+}
+
 .carousel-control-prev,
 .carousel-control-next,
 .carousel-indicators {
