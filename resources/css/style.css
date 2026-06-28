@@ -149,6 +149,11 @@ font-family: "GlacialIndifference";
 color: white;
 }
 
+.bold {
+  font-family: "GlacialIndifferenceB";
+  color: white;
+}
+
 a#nova-teaser {
     display: block;
     text-align: center;
